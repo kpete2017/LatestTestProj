@@ -1,0 +1,41 @@
+{
+  "name": "react-native-native-module-sample",
+  "title": "React Native Native Module Sample",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "react-native-native-module-sample.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "windows": "react-native run-windows"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-native-module-sample.git",
+    "baseUrl": "https://github.com/github_account/react-native-native-module-sample"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "yourname@email.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.74.0-rc.9",
+    "react-native-windows": "0.74.0-preview.4"
+  },
+  "devDependencies": {
+    "metro-config": "^0.56.4"
+  }
+}
